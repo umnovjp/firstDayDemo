@@ -1,1 +1,135 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .inside-company-name {
+    color: #d9dcd6;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+/* unusual way to spacify an image in CSS; most people specify that image in HTML*/
+.big-image {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* this class is created to add styles to group of three boxes on the left hand side to describe capability */
+.capability-content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    flex:auto
+}
+/*this class creates styles for box on the right hand side. It includes fonts, BG color, margin, padding, dimensions*/
+.capabilities {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* sets bottom margin and font color for each of three divs in a box on right hand side in the bottom
+margin is created for header to be far enough from text of previous paragraph*/
+.capability-card {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* aligns text to the center in a header division on the right hand side; sets bottom marhin to make sure header does not overlap with */
+.capability-card h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* each card starts in new line and takes the whole width*/
+.capability-card img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* this class is created to add styles to each of three cards on the left hand side including BG color, margin-padding, options for 
+font, font color*/
+.capability-explain {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* sets max image size*/
+.capability-explain img {
+    max-height: 200px;
+}
+
+.capability-explain h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
