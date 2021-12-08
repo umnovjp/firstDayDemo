@@ -3,6 +3,6 @@ My second attempt to submit our first home work assignment. Application's links 
 ## Changes
 I made sure all links are working, all images have alt text in case they do not load. Also, title is added. 
 ## Links
-github repo: https://github.com/umnovjp/firstDayDemo_v2/
+github repo: https://github.com/umnovjp/firstDayDemo/
 
-live page: https://umnovjp.github.io/firstDayDemo_v2/
+live page: https://umnovjp.github.io/firstDayDemo/
